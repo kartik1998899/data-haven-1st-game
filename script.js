@@ -27,7 +27,7 @@ const player = {
   y: canvas.height / 2,
   size: 30,
   gravity: 0.45,
-  lift: -10,
+  lift: -7,
   velocity: 0,
   isScored: false
 };
