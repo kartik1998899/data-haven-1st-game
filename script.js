@@ -26,7 +26,7 @@ const player = {
   x: 50,
   y: canvas.height / 2,
   size: 30,
-  gravity: 0.45,
+  gravity: 0.35,
   lift: -7,
   velocity: 0,
   isScored: false
@@ -42,7 +42,7 @@ let frame = 0;
 const pipeSpawnRate = 98; // Increased from 90 (20%) for wider horizontal spacing
 
 // GAME SPEED ADJUSTMENT (15% slower than initial speed)
-const pipeSpeed = 1.7; 
+const pipeSpeed = 1.5; 
 
 // NEW: Background scrolling variables
 let backgroundX = 0;
