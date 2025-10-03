@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>moose game</title>
+     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('https://i.ibb.co/4ntLvQRJ/Data-Haven-Hero-For-Animation.png') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        canvas {
+            border: 2px solid black;
+            background: white;
+        }
+
+        .game-container {
+            position: relative;
+        }
+
+        .game-over {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <div class="game-over">
+            <p>pre: 0    High Score: 0</p>
+            <h2>GAME OVER</h2>
+            <p>Final Score: 0</p>
+            <p>Press SPACE or Click to Restart</p>
+        </div>
+    </div>
+
+    <script
+        src="script.js"></script>
+    </script>
+</body>
+</html>
